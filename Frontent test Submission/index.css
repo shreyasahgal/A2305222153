@@ -1,0 +1,50 @@
+/* 1. Reset basic elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Set base font and background */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* 3. Make links cleaner */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 4. Headings spacing */
+h1, h2, h3, h4, h5 {
+  margin-bottom: 10px;
+}
+
+/* 5. Input and button default reset */
+input, button {
+  font-family: inherit;
+  outline: none;
+}
+
+/* 6. Utility classes if needed */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* 7. Responsive text */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+}
