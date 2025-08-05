@@ -1,0 +1,91 @@
+/* General container */
+.App {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 900px;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Title */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+/* Grid for multiple URL input rows */
+.url-form-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* A single input row (long URL + validity + shortcode) */
+.url-form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Inputs: URL, Validity, Shortcode */
+.url-input,
+.validity-input,
+.shortcode-input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 250px;
+}
+
+/* Shorten Button */
+.shorten-button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shorten-button:hover {
+  background-color: #1565c0;
+}
+
+/* Error message style */
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+/* Result section */
+.result-section {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.result-card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+}
+
+/* Shortened URL */
+.result-short-url a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.result-expiry {
+  font-size: 0.9rem;
+  color: #555;
+}
