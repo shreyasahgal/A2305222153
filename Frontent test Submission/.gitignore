@@ -1,0 +1,47 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Node modules
+node_modules/
+
+# Build output
+build/
+
+# Dependency directories
+.npm/
+.pnp/
+.pnp.js
+
+# Production
+dist/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing coverage
+coverage/
+
+# Misc
+*.tgz
+*.log
+
+# macOS + Linux system files
+*.swp
+.swp
+*.swo
